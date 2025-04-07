@@ -1,0 +1,18 @@
+/* Knowmore.css */
+.center{
+    display: flex;
+    left: 5vmax;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 251, 251);
+    width: 80%;
+    border-radius: 2vmax;
+    height: 60vh; /* Optionally, set the height to fill the viewport */
+    margin: 10px; /* Add your desired margin value */
+   /* Add your desired padding value */
+  }
+  .cvd{
+    display: flex;
+    justify-content: center;
+  }
+  

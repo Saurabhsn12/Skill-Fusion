@@ -1,0 +1,57 @@
+.rope{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 10px 40px 20px  rgb(65, 57, 57);
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    left: 400px;
+    margin: 1vmax;
+    justify-content: center;
+
+}
+.setup{
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(186, 231, 231);
+    height: 70vh;
+    margin-top: 1vmax;
+    /* width: 80%; */
+ 
+}
+#as{
+    border-radius: 1vmax;
+    border: none;
+    background-color: rgba(230, 237, 233, 0.995);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.upse{
+    display: flex;
+    margin-bottom: 1vmax;
+}
+.creat{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.rope input{
+    border: 1px solid black;
+    width: 350px;
+}
+.rope select{
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 200px;
+}
+.rope .chec{
+    position: relative;
+    bottom: 15px;
+    right: 70px;
+}
+h5{
+    position: relative;
+    top: 5px;
+}
