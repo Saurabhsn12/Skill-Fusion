@@ -1,0 +1,113 @@
+
+.footer{
+    width: 100%;
+    position: absolute;
+    background-color:rgb(35, 33, 35);
+    display: grid;
+    height: 35vh;
+    color: #fff;
+    padding: 30px 30px 0px 50px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    width: 70%;
+
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logs{
+    width: 80px;
+    margin-bottom: 15px;
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    font-weight: 600;
+}
+.col>h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100px;
+    margin-bottom: 15px;
+    color: rgb(181, 149, 197);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+
+
+ }
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul>li{
+    list-style: none;
+    border-bottom: 12px;
+    line-height: 25px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.form1{
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.form1>h1{
+    font-size: 2vmax;
+    margin-right: 0.5vmax;
+}
+.form1 >input{
+    border-radius: 1vmax;
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    outline: none;
+
+}
+.social-icon{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+.social-icon >p{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+.copy{
+    display: flex;
+   justify-content: center;
+}
